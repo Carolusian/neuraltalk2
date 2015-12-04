@@ -54,6 +54,7 @@ If you'd like to train your models you will need [loadcaffe](https://github.com/
 ```bash
 luarocks install loadcaffe
 ```
+> NOTE: you may need to run sudo apt-get install -y protobuf-compiler && sudo apt-get install -y libprotobuf-dev
 
 You will also need to install [torch-hdf5](https://github.com/deepmind/torch-hdf5), and [h5py](http://www.h5py.org/), since we will be using hdf5 files to store the preprocessed data.
 
